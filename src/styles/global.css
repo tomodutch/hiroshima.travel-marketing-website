@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+    /* Hiroshima Red color scale */
+    --color-hiroshima-50:  #FDE8E8;
+    --color-hiroshima-100: #F9C1C1;
+    --color-hiroshima-200: #F48B8B;
+    --color-hiroshima-300: #EE5B5B;
+    --color-hiroshima-400: #E53939;
+    --color-hiroshima-500: #BA1B1D; /* main red */
+    --color-hiroshima-600: #A01718;
+    --color-hiroshima-700: #801112;
+    --color-hiroshima-800: #5F0D0D;
+    --color-hiroshima-900: #3F0808;
+}
