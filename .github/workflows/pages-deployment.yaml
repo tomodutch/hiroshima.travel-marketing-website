@@ -86,5 +86,5 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy ${{ env.BUILD_PATH }}/dist --project-name=YOUR_PROJECT_NAME
+          command: pages deploy ${{ env.BUILD_PATH }}/dist --project-name=hiroshima.travel
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
